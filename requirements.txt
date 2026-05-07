@@ -1,0 +1,18 @@
+# MaxmAuto Test Framework Dependencies
+# =====================================
+# Install with: pip install -r requirements.txt
+
+# Core Testing Framework
+pytest>=7.4.0
+pytest-html>=4.0.0
+pytest-xdist>=3.3.0  # For parallel test execution
+
+# Appium & Selenium
+Appium-Python-Client>=3.1.0
+selenium>=4.11.0
+
+# Utilities
+urllib3>=2.0.0
+
+# Optional: For better test reporting
+allure-pytest>=2.13.0

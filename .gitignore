@@ -1,0 +1,115 @@
+# MaxmAuto Test Framework .gitignore
+# ===================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Reports & Logs
+reports/
+logs/
+*.log
+
+# Screenshots (keep the directory, ignore contents)
+screenshots/*.png
+!screenshots/.gitkeep
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Credentials
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# APK files (too large for git)
+*.apk
+*.apks
+*.aab
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Node (if using any JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Distribution / packaging
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt

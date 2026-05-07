@@ -9,7 +9,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 
 # ========================== CONFIGURATION ==========================
 PACKAGE_NAME = "au.com.maxmskate.mobile.stg"
-APK_PATH = r"C:/app-arm64-v8a-v0.8.1_5-development-release.apk"
+APK_PATH = r"C:/app-arm64-v8a-v0.8.1_6-development-release.apk"
 
 # ========================== CLEAN REINSTALL ==========================
 def clean_reinstall():
